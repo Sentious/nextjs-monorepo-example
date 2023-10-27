@@ -29,12 +29,12 @@
   </a>
 </p>
 
-> Howtos for monorepo. New to monorepos ? [check this FAQ](./README.md#monorepo). This example is managed by [Yarn 3.2+](https://dev.to/arcanis/yarn-32-libc-yarn-explain-next-major--o22)
+> Howtos for monorepo. New to monorepos? [check this FAQ](./README.md#monorepo). This example is managed by [Yarn 3.2+](https://dev.to/arcanis/yarn-32-libc-yarn-explain-next-major--o22)
 > / [typescript path aliases](https://www.typescriptlang.org/tsconfig#paths). Not the only way to do.
 
 Useful to
 
-- Establish a **structure** and present a lifecycle perspective (dx, ci/cd, deployments...)
+- Establish a **structure** and present a lifecycle perspective (dx, ci/cd, deployments...).
 - How to create and consume **shared packages**, locales, assets, api types...
 - Integrate **tools & configs** (eslint, jest, playwright, storybook, changelogs, versioning, codecov, codeclimate...).
 - Clarify some **advantages** of monorepos (team cohesion, consistency, duplication, refactorings, atomic commits...).
@@ -110,7 +110,7 @@ yarn install
 - [apps/remix-app](./apps/remix-app): Remix. [README](./apps/remix-app/README.md) | [~~DEMO/Vercel~~] | [CHANGELOG](./apps/remix-app/CHANGELOG.md)
 - [apps/vite-app](./apps/vite-app): Basic vite-app. [README](./apps/vite-app/README.md) | [DEMO/Vercel](https://monorepo-vite-app.vercel.app) | [CHANGELOG](./apps/vite-app/CHANGELOG.md)
 
-> Apps should not depend on apps, they can depend on packages
+> Apps should not depend on apps, they can depend on packages.
 
 #### Example shared packages
 
